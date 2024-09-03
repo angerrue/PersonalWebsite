@@ -14,76 +14,97 @@
                  font-size: 18px;
             }
             body {
-        color: white;
-        width: 100%;
-        height: 100vh;
-        overflow-x: hidden;
-        background-color: black;
-        
-    }       
-        .linksToOther a {
-            color: white;
-            text-decoration: none;
-        }
-        .header {
-            display: flex;
-            width: 100%;
-            justify-content: center;
-            text-align: center;
-        }
+  color: white;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: black;
+}
 
-        .linksToOther {
-            display: flex;
-            padding: 0%;
-            margin: 0%;
-            list-style-type: none;
-            
-        }
-        .linksToOther li {
-            margin: 5% 100px;
-            color: white;
-        }
+.linksToOther a {
+  color: white;
+  text-decoration: none;
+}
 
-            .centerWebsite {
-                width: 100%;
-            
-            }
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
 
-            .blackClover {
-                display: flex;
-                margin-bottom: 20px;
-            }
-            .image {
-                max-width: 600px;
-                margin-left: 300px;
-            }
+.linksToOther {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
 
-            .text-beside {
-                max-width: 20px;
-                margin-left: 600px;
-                margin-top: 300px;
-            }
-            .text-below {
-                margin-top: 20px;
-                text-align: left;
-                margin-left: 50px;
-            }
-            .text-beside p {
-                font-size: 20px;
+.linksToOther li {
+  margin: 5% 5vw; 
+  color: white;
+}
 
-            }
+.centerWebsite {
+  width: 100%;
+}
 
-            .bottomLinks {
+.blackClover {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.image {
+  max-width: 50%; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.text-beside {
+  max-width: 20%; 
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: 5vh; 
+}
+
+.text-below {
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 5vw; 
+}
+
+.text-beside p {
+  font-size: 1.25rem; 
+}
+
+.bottomLinks {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 2vw; 
 }
 
 .bottomLinks img {
-  width: 75px; 
-  height: 75px; 
-  object-fit: cover; 
-  margin-right: 10px; 
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  margin-right: 1vw; 
+}
+
+
+@media (max-width: 768px) {
+  .linksToOther li {
+    margin: 5% 2vw; 
+  }
+
+  .image, .text-beside {
+    max-width: 80%; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text-beside {
+    margin-top: 3vh; 
+  }
 }
 
             
